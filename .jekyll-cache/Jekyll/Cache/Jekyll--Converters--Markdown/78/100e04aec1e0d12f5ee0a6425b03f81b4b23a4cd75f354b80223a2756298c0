@@ -1,0 +1,215 @@
+I"I<hr />
+<p>First impression upon access.
+When we identify ourselves, our main screen will appear, where the first thing we will do is manage our account. We click on <code class="language-plaintext highlighter-rouge">Administration/User Management</code></p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/useRoot/cnu_manager1.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+<p>Here we see our user and we click on edit, we get a new window where we will fill in the form.</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/useRoot/formRoot.png" alt="Form" />
+                
+        
+    </figure>
+</div>
+
+<p><em>Username “email”</em>: It is the login user</p>
+
+<p><em>First Name</em>: This is the name of the user who will use this account eg. Robert</p>
+
+<p><em>Last Name</em>: This is the Surname of the user who will use this account. ex. Smith</p>
+
+<p><em>Wizzie Token API:</em> This is an API Token that Wizzie must give to the user. Without this API the user cannot work in the system, it is necessary to be able to load the Wizzie organizations and to be able to create Provider</p>
+
+<p><em>Language:</em> This is the user’s preferred language. The application supports three languages, Spanish, English and Catalan</p>
+
+<hr />
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/useRoot/enduser.png" alt="End" />
+                
+        
+    </figure>
+</div>
+<hr />
+<p>There are two types of users, root and a Provider administrator:</p>
+
+<p>1- Root:</p>
+
+<p>The root and activated check boxes are marked by default, to create a root user we must select both check boxes. If you are root, you will have access to all the Providers and all the information.
+At the end we click on the blue <code class="language-plaintext highlighter-rouge">SAVE</code> button.</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createUserRoot/checkboxroot.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<p>2- Provider:<br />
+In the event that the user we are creating is not root, we must uncheck the root checkbox and specify the Provider to which it belongs. This user will only see the data of their Provider.</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createUserRootProvider/user-noroot.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+<h2 id="create-a-provider">Create a Provider</h2>
+
+<p>Once the user’s data is updated, we must create a new provider, for this we go to the <code class="language-plaintext highlighter-rouge">Entities / Provider</code> tab:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/crateRootProv/enntitiesProvider.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+<p>We click on the blue <code class="language-plaintext highlighter-rouge">Create A New Provider</code> button and fill in the fields of the Form:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/crateRootProv/formProvider.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<p><em>Identifier</em>: This is the name of the provider we are creating.</p>
+
+<p><em>Description</em>: A brief description of the provider</p>
+
+<p><em>Topic</em>: This is the name of the topic to which you are going to subscribe</p>
+
+<p><em>Wizzie Organization</em>: Wizzie Organization to which you are sending the data. In this case there are three organizations available (FIRA, ITNOW, UCLM), the user must choose one.</p>
+
+<hr />
+
+<p>At the end we must click on the blue SAVE button, and this will take us to the window where all the providers created will be, the application gives us the option to delete or modify a provider if we wish:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/crateRootProv/providerEnd.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+<hr />
+
+<hr />
+<h2 id="create-an-azzets-use">Create An Azzets Use</h2>
+<p>Before creating the Assets, we must create an Assets User, who is going to use the Assets that we will create later, for them we go to the  <code class="language-plaintext highlighter-rouge">Entities / Assets User</code> tab:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createRootazzetsUse/entitiesAzzUse.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+<p>We click on the blue <code class="language-plaintext highlighter-rouge">Create A New Azzets Use</code> button and fill in the fields of the Form:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createRootazzetsUse/formAzzUse.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<p><em>Identifier:</em> This is the name of the Azzets Use.</p>
+
+<p><em>Description:</em> A brief description of the Azzets use.</p>
+
+<p><em>Provider:</em> This is the name of the Provider you are using. The application shows us the list of Providers that are created, the user must choose between them.</p>
+
+<hr />
+
+<p>At the end we must click on the blue <code class="language-plaintext highlighter-rouge">SAVE</code> button, and this will take us to the window where all the Assets Use created will be, the application gives us the option to delete or modify an Assets Use if we wish:</p>
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createRootazzetsUse/AzzUseEnd.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+<h2 id="create-an-azzets">Create an Azzets</h2>
+
+<p>The Azzets is the one who sends the data to the kafka topics. To create a new Assets we go to the <code class="language-plaintext highlighter-rouge">Entities / Assets</code> tab:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createRootazzets/entitiesAzzets.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+
+<p>We click on the blue <code class="language-plaintext highlighter-rouge">Create A New Azzets</code> button and fill in the fields of the Form:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createRootazzets/formAzzets.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+<hr />
+<p><em>Identifier</em>: This is the name of the Assets that we are creating.</p>
+
+<p><em>Description</em>: A brief description of the Assets created.</p>
+
+<p><em>Vendor</em>: It is an identifier.</p>
+
+<p><em>Provider</em>: This is the list of all the Providers created, you must choose the one to work with.</p>
+
+<p>The enable checkbox, we must mark it.</p>
+
+<hr />
+<p>At the end we must click on the blue SAVE button, and this will take us to the window where all the Assets created will be, the application gives us the option to delete or modify an Assets if we wish:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createRootazzets/createAzzetsEnd.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<p>The application automatically sends the data to the kafka topic, as the events are created. It also gives us the option to forward the entire stream using the Send Kafka button.</p>
+:ET

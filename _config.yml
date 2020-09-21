@@ -1,0 +1,136 @@
+repository: ddnWizzie/azzets-docs
+
+output: web
+# this property is useful for conditional filtering of content that is separate from the PDF.
+
+topnav_title: Azzets Project Documentation
+# this appears on the top navigation bar next to the home button
+
+site_title: Azzets Project Documentation
+# this appears in the html browser tab for the site title (seen mostly by search engines, not users)
+
+company_name: Wizzie Analytics
+# this appears in the footer
+
+github_editme_path:
+# if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+
+# gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
+# if you're using GitLab, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
+
+#disqus_shortname: idratherbewriting
+# if you're using disqus for comments, add the shortname here. if not, leave this value blank.
+
+#google_analytics: UA-66296557-1
+# if you have google-analytics ID, put it in. if not, edit this value to blank.
+
+host: 127.0.0.1
+# the preview server used. Leave as is.
+
+port: 4000
+# the port where the preview is rendered. You can leave this as is unless you have other Jekyll builds using this same port that might cause conflicts. in that case, use another port such as 4006.
+
+exclude:
+  - .idea/
+  - .gitignore
+# these are the files and directories that jekyll will exclude from the build
+
+feedback_subject_line: Azzets Project Documentation
+
+feedback_email: info@wizzie.io
+# used as a contact email for the Feedback link in the top navigation bar
+
+# feedback_disable: true
+# if you uncomment the previous line, the Feedback link gets removed
+
+# feedback_text: "Need help?"
+# if you uncomment the previous line, it changes the Feedback text
+
+# feedback_link: "http://helpy.io/"
+# if you uncomment the previous line, it changes where the feedback link points to
+
+highlighter: rouge
+# library used for syntax highlighting
+
+markdown: kramdown
+kramdown:
+ input: GFM
+ auto_ids: true
+ hard_wrap: false
+ syntax_highlighter: rouge
+
+# filter used to process markdown. note that kramdown differs from github-flavored markdown in some subtle ways
+
+collections:
+  tooltips:
+    output: false
+# collections are declared here. this renders the content in _tooltips and processes it, but doesn't output it as actual files in the output unless you change output to true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      search: true
+      sidebar: azzets_0_1_X_sidebar
+      topnav: planes_topnav
+      image: images/wizzie_logo.png
+  -
+    scope:
+      path: "pages/vizzual"
+      type: "pages"
+    values:
+      image: /images/vizzual/logo.svg
+      topnav: planes_topnav
+
+# these are defaults used for the frontmatter for these file types
+
+sidebars:
+- azzets_0_1_X_sidebar
+
+# SEO and Social config
+google_site_verification: 8G13iLMreJldVEWLkrZnzCNNoa4ywsYfzAoPydBJgPo
+
+title: Azzets Project Documentation
+description: Azzets Project Documentation
+url: https://wizzie-io.github.io
+logo: /images/wizzie_logo.png
+lang: 'en-US'
+
+twitter:
+  username: wizzieio
+  card: summary
+
+social:
+  name: Wizzie
+  links:
+    - https://twitter.com/wizzieio
+    - https://www.linkedin.com/company/wizzie
+    - https://github.com/wizzie-io
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

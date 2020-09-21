@@ -1,0 +1,141 @@
+I"<hr />
+<h2 id="create-user">Create User</h2>
+
+<p>First impression upon access.
+Upon identifying ourselves, our main window will appear. A Provider user could only create other provider type users and the new users belong to the same Provider. To do this we click on <code class="language-plaintext highlighter-rouge">Administration / User Management</code>.</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createProviUser/creatNUserinit.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+
+<p>We click on the blue <code class="language-plaintext highlighter-rouge">Create A New User</code> button and fill in the fields of the Form:</p>
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createProviUser/formProvUser.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<p><em>Username “email”</em>: It is the access user</p>
+
+<p><em>First Name</em>: This is the name of the user who will use this account</p>
+
+<p><em>Last Name</em>: This is the last name of the user who will use this account.</p>
+
+<p><em>Wizzie Token API</em>: This is a Token API that Wizzie must give to the user. Without this API the user cannot work in the system, it is necessary to be able to load the Wizzie organizations and to be able to create Provider.</p>
+
+<p><em>Language</em>: This is the user’s preferred language. The application supports three languages, Spanish, English and Catalan</p>
+
+<hr />
+<p>At the end we click on the blue <code class="language-plaintext highlighter-rouge">SAVE</code> button and this will take us to the window where all the users created that belong to the same Provider will be, the application gives us the option to delete or modify a user if we wish:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/createProviUser/provUserEnd.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+<h2 id="create-azzets-use-can-only-from-your-provider">Create Azzets-Use (can only from your Provider)</h2>
+
+<p>Before creating the Assets, we must create an Assets User, who is going to use the Assets that we will create later, for them we go to the <code class="language-plaintext highlighter-rouge">Entities / Assets User</code> tab:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/CreateProviAzzetsUse/entitiesAzzUse.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+<p>We click on the blue <code class="language-plaintext highlighter-rouge">Create A New Azzets Use</code> button and fill in the fields of the Form:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/CreateProviAzzetsUse/formPUseAzz.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+
+<p><em>Identifier</em>: This is the name of the Azzets Use.</p>
+
+<p><em>Description</em>: A brief description of the Azzets use.</p>
+<hr />
+
+<p>At the end we must click on the blue <code class="language-plaintext highlighter-rouge">SAVE</code> button, and this will take us to the window where all the Assets Use created will be, the application gives us the option to delete or modify an Assets Use if we wish:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/CreateProviAzzetsUse/endPUseAzz.png" alt="Create User" />
+                
+        
+    </figure>
+</div>
+<hr />
+<h2 id="create-azzets-you-can-only-from-your-provider">Create Azzets (you can only from your Provider)</h2>
+
+<p>The Azzets is the one who sends the data to the kafka topics to create a new Assets, we go to the <code class="language-plaintext highlighter-rouge">Entities / Assets</code> tab:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/CreateProviAzzets/entitiesAzzets.png" alt="Create Azzets" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+<p>We click on the blue <code class="language-plaintext highlighter-rouge">Create A New Azzets</code> button and fill in the fields of the Form:</p>
+
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/CreateProviAzzets/formAzzp.png" alt="Form" />
+                
+        
+    </figure>
+</div>
+
+<p><em>Identifier</em>: This is the name of the Assets that we are creating.</p>
+
+<p><em>Description</em>: A brief description of the Assets created.</p>
+
+<p><em>Vendor</em>: It is an identifier.</p>
+
+<p><em>Asset Use</em>: This is the list of all Azzets Use created, you must choose the one you are going to work with.</p>
+
+<p>The enable checkbox, we must mark it.</p>
+
+<hr />
+<p>At the end we must click on the blue <code class="language-plaintext highlighter-rouge">SAVE</code> button, and this will take us to the window where all the Assets created will be, the application gives us the option to delete or modify an Assets if we wish:</p>
+<div>
+    <figure>
+        
+                <img class="docimage" src="images/azzets/CreateProviAzzets/provAzzEnd.png" alt="End" />
+                
+        
+    </figure>
+</div>
+
+<hr />
+
+<p>The application automatically sends the data to the kafka topic, as the events are created. It also gives us the option to forward the entire stream using the <code class="language-plaintext highlighter-rouge">Send Kafka</code> button</p>
+:ET

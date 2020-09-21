@@ -1,0 +1,31 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Azzets Docs
+  version: 0.1.X
+  folders:
+
+  
+
+  - title: Azzets Platform
+    output: web
+    folderitems:
+
+    - title: What is the Azzets Platform? 
+      url: /azzets_0.1.X_what_is.html
+      output: web
+
+    - title: Create an User
+      url: /azzets_0.1.X_creating_user.html
+      output: web
+
+    - title: Root Mode
+      url: /azzets_0.1.X_root_mode.html
+      output: web
+
+    - title: Provider Mode
+      url: /azzets_0.1.X_provider_mode.html
+      output: web
+
+  
