@@ -5,4 +5,4 @@ permalink: index.html
 
 ## Follow our guidee
 
-Go to the next sections to read the Planes guide.
+Go to the next sections to read the Azzets guide.
