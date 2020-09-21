@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/wizzie-io/planes-docs
+      external_url: https://github.com/ddnWizzie/azzets2
 
 #Topnav dropdowns
 topnav_dropdowns:
@@ -14,7 +14,7 @@ topnav_dropdowns:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Planes Versions
+    - title: Azzets Versions
       folderitems:
-        - title: Planes 0.1.X
+        - title: Azzets 0.1.X
           url: /index.html
