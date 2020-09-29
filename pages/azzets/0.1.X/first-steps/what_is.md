@@ -14,7 +14,7 @@ This application allows providers to manage their assets
 If you have any idea for an improvement or found a bug, please open an issue.
 
 ## License
-Planes is distributed under -- License.
+Azzets is distributed under -- License.
 
 
 ## Follow our guidee
