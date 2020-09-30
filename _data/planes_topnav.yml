@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/ddnWizzie/azzets2
+      external_url: https://github.com/wizzie-io/azzets-docs
 
 #Topnav dropdowns
 topnav_dropdowns:
