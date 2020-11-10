@@ -14,7 +14,7 @@ Here we see our user and we click on edit, we get a new window where we will fil
 
 {% include image.html file="azzets/useRoot/formRoot.png" alt="Form" %}
 
-*Username "email"*: It is the login user
+*Email*: It is the login user
 
 *First Name*: This is the name of the user who will use this account eg. Robert
 
@@ -33,7 +33,7 @@ There are two types of users, root and a Provider administrator:
 1- Root:
 
 The root and activated check boxes are marked by default, to create a root user we must select both check boxes. If you are root, you will have access to all the Providers and all the information.
-At the end we click on the blue `SAVE` button.
+At the end we click on the `SAVE` button.
 
 {% include image.html file="azzets/createUserRoot/checkboxroot.png" alt="Create User" %}
 
@@ -51,7 +51,7 @@ Once the user's data is updated, we must create a new provider, for this we go t
 {% include image.html file="azzets/crateRootProv/enntitiesProvider.png" alt="Create User" %}
 
 * * *
-We click on the blue `Create A New Provider` button and fill in the fields of the Form:
+We click on the `+` symbol and fill in the fields of the Form that appear::
 
 {% include image.html file="azzets/crateRootProv/formProvider.png" alt="Create User" %}  
 
@@ -66,7 +66,7 @@ We click on the blue `Create A New Provider` button and fill in the fields of th
 
 * * * 
 
-At the end we must click on the blue SAVE button, and this will take us to the window where all the providers created will be, the application gives us the option to delete or modify a provider if we wish:
+At the end we must click on the SAVE button, and this will take us to the window where all the providers created will be, the application gives us the option to delete or modify a provider if we wish:
 
    {% include image.html file="azzets/crateRootProv/providerEnd.png" alt="Create User" %}             
 _ _ _
@@ -78,7 +78,7 @@ Before creating the Assets, we must create an Assets User, who is going to use t
 {% include image.html file="azzets/createRootazzetsUse/entitiesAzzUse.png" alt="Create User" %}  
 
 ***
-We click on the blue `Create A New Azzets Use` button and fill in the fields of the Form:  
+We click on the `+` symbol and fill in the fields of the Form that appear:  
 
 {% include image.html file="azzets/createRootazzetsUse/formAzzUse.png" alt="Create User" %}  
 
@@ -90,7 +90,7 @@ We click on the blue `Create A New Azzets Use` button and fill in the fields of 
 
 ***
 
-At the end we must click on the blue `SAVE` button, and this will take us to the window where all the Assets Use created will be, the application gives us the option to delete or modify an Assets Use if we wish:  
+At the end we must click on the `SAVE` button, and this will take us to the window where all the Assets Use created will be, the application gives us the option to delete or modify an Assets Use if we wish:  
 {% include image.html file="azzets/createRootazzetsUse/AzzUseEnd.png" alt="Create User" %} 
 
 * * *
@@ -103,7 +103,7 @@ The Azzets is the one who sends the data to the kafka topics. To create a new As
 
 * * *
 
-We click on the blue `Create A New Azzets` button and fill in the fields of the Form:  
+We click on the `+` symbol and fill in the fields of the Form that appear:  
 
 {% include image.html file="azzets/createRootazzets/formAzzets.png" alt="Create User" %}  
 _ _ _
@@ -118,11 +118,11 @@ _ _ _
 The enable checkbox, we must mark it.  
 
 * * * 
-At the end we must click on the blue SAVE button, and this will take us to the window where all the Assets created will be, the application gives us the option to delete or modify an Assets if we wish:  
+At the end we must click on the SAVE button, and this will take us to the window where all the Assets created will be, the application gives us the option to delete or modify an Assets if we wish:  
 
 {% include image.html file="azzets/createRootazzets/createAzzetsEnd.png" alt="Create User" %}  
 
           
 
 
-The application automatically sends the data to the kafka topic, as the events are created. It also gives us the option to forward the entire stream using the Send Kafka button.
+The application automatically sends the data to the kafka topic, as the events are created. It also gives us the option to forward the entire stream using the the Synchronize button.

@@ -14,10 +14,10 @@ Upon identifying ourselves, our main window will appear. A Provider user could o
 
 ***
 
-We click on the blue `Create A New User` button and fill in the fields of the Form:  
+We click on the `+` symbol and fill in the fields of the Form that appear:  
 {% include image.html file="azzets/createProviUser/formProvUser.png" alt="Create User" %}  
 
-*Username "email"*: It is the access user  
+*Email*: It is the access user  
 
 *First Name*: This is the name of the user who will use this account  
 
@@ -28,7 +28,7 @@ We click on the blue `Create A New User` button and fill in the fields of the Fo
 *Language*: This is the user's preferred language. The application supports three languages, Spanish, English and Catalan  
 
 ***
-At the end we click on the blue `SAVE` button and this will take us to the window where all the users created that belong to the same Provider will be, the application gives us the option to delete or modify a user if we wish:  
+At the end we click on the `SAVE` button and this will take us to the window where all the users created that belong to the same Provider will be, the application gives us the option to delete or modify a user if we wish:  
 
 {% include image.html file="azzets/createProviUser/provUserEnd.png" alt="Create User" %}
 
@@ -42,7 +42,7 @@ Before creating the Assets, we must create an Assets User, who is going to use t
 {% include image.html file="azzets/CreateProviAzzetsUse/entitiesAzzUse.png" alt="Create User" %}  
 
 ***
-We click on the blue `Create A New Azzets Use` button and fill in the fields of the Form:  
+We click on the `+` symbol and fill in the fields of the Form that appear:  
 
 {% include image.html file="azzets/CreateProviAzzetsUse/formPUseAzz.png" alt="Create User" %}
 
@@ -53,7 +53,7 @@ We click on the blue `Create A New Azzets Use` button and fill in the fields of 
 * * *
 
 
-At the end we must click on the blue `SAVE` button, and this will take us to the window where all the Assets Use created will be, the application gives us the option to delete or modify an Assets Use if we wish:  
+At the end we must click on the `SAVE` button, and this will take us to the window where all the Assets Use created will be, the application gives us the option to delete or modify an Assets Use if we wish:  
 
 {% include image.html file="azzets/CreateProviAzzetsUse/endPUseAzz.png" alt="Create User" %}
 * * *
@@ -64,7 +64,7 @@ The Azzets is the one who sends the data to the kafka topics to create a new Ass
 {% include image.html file="azzets/CreateProviAzzets/entitiesAzzets.png" alt="Create Azzets" %}  
 
 ***
-We click on the blue `Create A New Azzets` button and fill in the fields of the Form:  
+We click on the `+` symbol and fill in the fields of the Form that appear:  
 
 {% include image.html file="azzets/CreateProviAzzets/formAzzp.png" alt="Form" %}
  
@@ -79,9 +79,9 @@ We click on the blue `Create A New Azzets` button and fill in the fields of the 
 The enable checkbox, we must mark it.  
 
 ***
-At the end we must click on the blue `SAVE` button, and this will take us to the window where all the Assets created will be, the application gives us the option to delete or modify an Assets if we wish:  
+At the end we must click on the `SAVE` button, and this will take us to the window where all the Assets created will be, the application gives us the option to delete or modify an Assets if we wish:  
 {% include image.html file="azzets/CreateProviAzzets/provAzzEnd.png" alt="End" %}  
 
 ***
 
-The application automatically sends the data to the kafka topic, as the events are created. It also gives us the option to forward the entire stream using the `Send Kafka` button
+The application automatically sends the data to the kafka topic, as the events are created. It also gives us the option to forward the entire stream using the `Synchronize` button
