@@ -8,7 +8,7 @@ toc: false
 ## Create User  
 
 First impression upon access.
-Upon identifying ourselves, our main window will appear. A Provider user could only create other provider type users and the new users belong to the same Provider. To do this we click on `Administration / User Management`. 
+Upon identifying ourselves, our main window will appear. A Provider user can only create other provider type users and the new users belong to the same Provider. To do this we click on `Administration / User Management`. 
 
 {% include image.html file="azzets/createProviUser/creatNUserinit.png" alt="Create User" %}  
 
