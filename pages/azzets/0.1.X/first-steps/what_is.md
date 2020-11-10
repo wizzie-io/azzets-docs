@@ -17,7 +17,7 @@ If you have any idea for an improvement or found a bug, please open an issue.
 Azzets is distributed under -- License.
 
 
-## Follow our guidee
+## Follow our guide
 
 Go to the next sections to read the Azzets guide.
 
